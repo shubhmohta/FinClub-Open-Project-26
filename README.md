@@ -1,6 +1,7 @@
 # Stochastic Term Structure Modeling & Interest Rate Dynamics
 **Finance Club Open Project 2026 | Indian Institute of Technology (IIT) Roorkee**
 
+[![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](#)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Quant Finance](https://img.shields.io/badge/Domain-Quantitative_Finance-00524e.svg)]()
@@ -56,12 +57,17 @@ The project features a comprehensive, publication-ready visual diagnostics suite
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (Zero Setup)
 
-### Prerequisites
-Ensure you have Python 3.10+ installed. The environment relies heavily on the SciPy ecosystem.
+This project is engineered as a fully self-contained **Google Colab Notebook**. There are no local environment configurations or `requirements.txt` files needed to replicate these results.
 
-```bash
-git clone [https://github.com/shubhmohta/FinClub-Open-Project-26.git](https://github.com/shubhmohta/FinClub-Open-Project-26.git)
-cd FinClub-Open-Project-26
-pip install -r requirements.txt
+**To run the analysis:**
+1. Navigate to the `.ipynb` notebook file in this repository.
+2. Click the **"Open in Colab"** button (or download and open it in your local Jupyter environment).
+3. If the notebook relies on external CSV datasets (e.g., historical yield curves), ensure those data files are uploaded to your Colab session.
+4. Select `Runtime > Run all` to execute the end-to-end pipeline, from raw data cleaning to the final Affine Jump-Diffusion visualizations.
+
+---
+
+## 💡 The Engineering Perspective
+*Why is an Electrical Engineering student building quantitative finance models?* Financial yield curves are high-dimensional dynamical systems clouded by non-linear noise. This project approaches quantitative finance through the rigorous lens of **Control Theory**. The same mathematics used in robotics to minimize state-space errors and filter hardware noise—Kalman Filters, Riccati equations, and PID logic—are directly analogous to deriving structural alpha and managing risk in proprietary trading environments.
