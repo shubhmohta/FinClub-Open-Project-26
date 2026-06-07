@@ -1,4 +1,3 @@
-# FinClub-Open-Project-26
 # Stochastic Term Structure Modeling & Interest Rate Dynamics
 **Finance Club Open Project 2026 | Indian Institute of Technology (IIT) Roorkee**
 
@@ -14,7 +13,6 @@ By applying control theory principles, Riccati ODE solvers, and dynamic state es
 
 ## 👨‍💻 Author
 **Shubh Mohta** *B.Tech in Electrical Engineering, IIT Roorkee* * **Enrollment No:** 24115142
-* **Codeforces:** [Spazion (Expert)](https://codeforces.com/profile/Spazion)
 
 ---
 
@@ -50,7 +48,7 @@ An advanced framework integrating discontinuous Poisson jump processes to model 
 ---
 
 ## 📊 Visual Diagnostics Pipeline
-The notebook features a comprehensive, publication-ready visual diagnostics suite, including:
+The project features a comprehensive, publication-ready visual diagnostics suite, including:
 1. **3D Market Yield Surfaces:** Topographical mapping of the actual out-of-sample term structure evolution.
 2. **Residual Heatmaps:** Granular basis-point error tracking across maturities and time.
 3. **Latent State Trajectories:** Exposing the invisible macroeconomic drivers ($x_1, x_2$) powering the curve.
@@ -64,6 +62,6 @@ The notebook features a comprehensive, publication-ready visual diagnostics suit
 Ensure you have Python 3.10+ installed. The environment relies heavily on the SciPy ecosystem.
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+git clone [https://github.com/shubhmohta/FinClub-Open-Project-26.git](https://github.com/shubhmohta/FinClub-Open-Project-26.git)
+cd FinClub-Open-Project-26
 pip install -r requirements.txt
